@@ -1,0 +1,226 @@
+body {
+  margin:0;
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: 200;
+}
+
+h3{
+  color:white;
+  font-size: 20px;
+}
+
+h4 {
+  color:white;
+  font: normal 11px;
+}
+
+/* ====== Header ==== */
+
+#heed {
+background-color:purple;
+color: white;
+height: 150px;
+width:100%;
+position: relative;
+}
+
+
+#peter-container {
+  float:left;
+  width:10%;
+  height:50px;
+  margin-left: 9%;
+  line-height: 50px;
+  text-align: center;
+  /*border-right: 2px solid white; */
+}
+
+#line {
+  float:left;
+  height:60px;
+  width:1px;
+  border-right:1px solid white;
+  line-height: 50px;
+  margin-top:20px;
+}
+
+#jones-container {
+  float:left;
+  height:50px;
+  width:10%;
+  line-height: 50px;
+  text-align: center;
+}
+
+h1 a {
+  text-decoration: none;
+  color:white;
+  font-weight:50;
+}
+
+
+
+#top-nav {
+  float: right;
+  display:inline;
+  height:50px;
+  margin-right: 50px;
+}
+
+li {
+  display:inline-block;
+  margin: 20px 6px 0 0;
+}
+
+#boxo {
+  border-left: 1px solid white;
+  padding-left: 18px;  /* Not quite getting the box model*/
+}
+
+#search-bar {
+  position:absolute;
+  left:80%;
+  top:60px
+}
+
+/* ================= Main Navigation ======================== */
+
+nav {
+  position:absolute;
+  bottom:5px;
+  left:100px;
+  color:white;
+  font-size: 14px;
+  display:inline-block;
+}
+
+nav ul a {
+  color:white;
+  text-decoration: none;
+}
+
+button {
+  color:white;
+  font-size: 15px;
+  background-color: #BDA0CB;
+  height:8px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* =========================== Slider ============================= */
+
+#slider-container {
+  padding-top:10px;
+  margin: auto;
+  width: 65%;
+  height: 400px;
+}
+
+/* ============================== Under slider ================== */
+
+#table-cols {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:1em;
+  grid-auto-rows:300px;
+  width: 75%;
+  float:left;
+  font-size: 10px;
+  border-bottom: 1px dotted grey;
+
+}
+
+#social-sidebar {
+  width:24%;
+  float:right;
+  background-color: yellow;
+  grid-auto-rows:250px;
+  border:1px solid black;
+}
+
+.clearfix {
+  clear:both;
+}
+
+#news {
+  padding-bottom: 20px;
+  font-size:15px;
+}
+
+.new-story {
+  display: block;
+  height:auto;
+}
+
+.news-img {
+  float: left;
+  padding-right:20px;
+
+}
+/* ================= Footer ================= */
+
+footer {
+  width: 100%;
+  background:black;
+  height:300px;
+}
+
+#footer-container {
+  margin: auto;
+  width: 65%;
+  height: 400px;
+}
+
+#shortcuts {
+  float:left;
+}
+
+  .shortCutTitle {
+    color:white;
+    width: 50%;
+    padding-top: 40px;
+  }
+
+  .shortCutList {
+    float:left;
+    display:inline-block;
+    width: 120px;
+    font-size: 11px;
+    height:200px;
+    padding-left: 0pt;
+  }
+
+  .shortCutList ul li {
+    display:block;
+    color:#999;
+    margin-left:-40px;
+  }
+
+#up-to-date-section {
+  margin-top:-50px;
+  float:right;
+  display:inline-block;
+  width: 300px;
+  font-size: 11px;
+  height:300px;
+}
+
+  .up-to-date-text {
+    color:white;
+  }
+
+  #up-to-data-input {
+    display:inline-block;
+  }
+
+  #up-to-data-input input {      /* This worked but if the class and input is on the same < */
+    border-radius: 8px;
+    padding: 2px;
+    margin-bottom:15px;
+  }
+
+  #up-to-data-input button {
+    border-radius: 8px;
+    background-color: purple;
+  }
